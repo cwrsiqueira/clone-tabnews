@@ -4,13 +4,13 @@ const Navbar = () => {
   return (
     <div>
       <ul style={{ display: "flex" }}>
-        <li style={{ margin: "20px" }}>
-          <Link rel="Home" href={"/"}>
+        <li style={{ margin: "20px", listStyle: "none" }}>
+          <Link style={{ textDecoration: "none" }} rel="Home" href={"/"}>
             Home
           </Link>
         </li>
-        <li>
-          <Link rel="Sobre" href={"/sobre"}>
+        <li style={{ margin: "20px", listStyle: "none" }}>
+          <Link style={{ textDecoration: "none" }} rel="Sobre" href={"/sobre"}>
             Sobre
           </Link>
         </li>
